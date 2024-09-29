@@ -15,7 +15,7 @@ This part describes the activity. This example activity consists in fixing two f
    * only change the allowed files to achieve this goal (see instructions below with specific rules).
 
 - The GitHub Actions should present a green marker when all tests are satisfied, and a red X when some (or all) of tests fail. 
-    * **Advice:** You can click on the red X to verify which tests have failed (or if code didn't compile correctly) via Github repository Actions.
+    * **Advice 1:** You can click on the red X to verify which tests have failed (or if code didn't compile correctly) via Github repository Actions.
     * **Advice 2:** If no autograding test appear, contact instructor.
 
 ## Instructions
