@@ -43,3 +43,7 @@ TEST_CASE("DIV Test Case", "[sample test]")
     REQUIRE(div(27,3) == 9);
 }
 
+// =====================
+// TODO: tests for exercise 5
+// ---------------------
+
