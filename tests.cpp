@@ -10,7 +10,6 @@
 // =====================
 // tests for exercise 1
 // ---------------------
-
 // mame and tag of test case
 TEST_CASE("ADD Test Case", "[sample test]")
 {
@@ -20,10 +19,27 @@ TEST_CASE("ADD Test Case", "[sample test]")
 // =====================
 // tests for exercise 2
 // ---------------------
+// mame and tag of test case
+TEST_CASE("SUB Test Case", "[sample test]")
+{
+    REQUIRE(subtract(3,1) == 2);
+}
 
+// =====================
+// tests for exercise 3
+// ---------------------
 // mame and tag of test case
 TEST_CASE("MUL Test Case", "[sample test]")
 {
     REQUIRE(mul(3,3) == 9);
+}
+
+// =====================
+// tests for exercise 4
+// ---------------------
+// mame and tag of test case
+TEST_CASE("DIV Test Case", "[sample test]")
+{
+    REQUIRE(div(27,3) == 9);
 }
 
