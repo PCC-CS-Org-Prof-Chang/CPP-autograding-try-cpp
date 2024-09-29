@@ -12,10 +12,7 @@ int subtract(int a, int b);
 int mul(int a, int b);
 
 // Exercise 4: implements function 'div', that divides two numbers and return int
-int div(int a, int b);
-
-// Exercise 5: implements function 'div', that divides two double numbers and return double
-double div(double a, double b);
+int divide(int a, int b);
 
 // ===============
 // implementations
@@ -35,12 +32,7 @@ int mul(int a, int b)
    return 0; // TODO: fix
 }
 
-int div(int a, int b)
-{
-   return 0; // TODO: fix
-}
-
-double div(double a, double b)
+int divide(int a, int b)
 {
    return 0; // TODO: fix
 }
